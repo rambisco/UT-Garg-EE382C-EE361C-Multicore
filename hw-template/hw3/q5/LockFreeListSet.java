@@ -1,13 +1,17 @@
 package q5;
 
 public class LockFreeListSet implements ListSet {
-    // you are free to add members
+    Node head;
+    Node tail;
 
     public LockFreeListSet() {
+        Node head = new Node(null);
+        Node tail = head;
         // implement your constructor here
     }
 
     public boolean add(int value) {
+
         // implement your add method here
         return false;
     }
